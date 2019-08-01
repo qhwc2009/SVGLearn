@@ -1,0 +1,52 @@
+@import '../style.scss';
+
+.svgEditor {
+  @include fullView;
+  display: flex;
+  align-items: stretch;
+
+  .sideBar {
+    flex: 0 0 320px;
+    height: 100%;
+    overflow: auto;
+    background: #EAEAEA;
+    .form {
+      background-color: white;
+      margin-bottom: 16px;
+      .formTitle {
+        padding: 4px;
+        background-color: #E3E3E3;
+        font-size: 14px;
+        color: #696969;
+      }
+      .formContent {
+        padding: 8px;
+        .typeButton {
+          margin-right: 8px;
+        }
+
+        .formComponent {
+          display: flex;
+          align-items: center;
+          .componentTitle {
+            flex: 0 0 70px;
+            font-size: 14px;
+            color: #696969;
+          }
+        }
+      }
+      .centerContent {
+        @include center;
+        padding: 16px;
+      }
+    }
+  }
+  .svgArea {
+    flex: 1;
+    .svgPreview {
+      height: 100%;
+      width: 100%;
+      background-color: white;
+    }
+  }
+}

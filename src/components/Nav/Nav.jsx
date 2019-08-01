@@ -9,6 +9,16 @@ const pages = [
     link: '/',
     title: 'Home',
   },
+  {
+    key: '2',
+    link: '/circle',
+    title: 'Shape',
+  },
+  {
+    key: '3',
+    link: '/SVGEditor',
+    title: 'SVGEditor',
+  },
 ];
 
 function Nav({ location }) {
