@@ -1,0 +1,5 @@
+@import '../style.scss';
+.pattern {
+  @include fullView;
+  @include center;
+}

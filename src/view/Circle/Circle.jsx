@@ -15,7 +15,7 @@ export default function Circle() {
         <path
           d="M 50 140 A 60 60 0 0 0 150 140"
           stroke="white"
-          stroke-width="3"
+          strokeWidth="3"
           fill="none"
         />
       </svg>

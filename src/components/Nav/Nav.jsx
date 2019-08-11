@@ -19,6 +19,21 @@ const pages = [
     link: '/SVGEditor',
     title: 'SVGEditor',
   },
+  {
+    key: '4',
+    link: '/LinearGradient',
+    title: 'LinearGradient',
+  },
+  {
+    key: '5',
+    link: '/RadiaGradient',
+    title: 'RadiaGradient',
+  },
+  {
+    key: '6',
+    link: '/Pattern',
+    title: 'Pattern',
+  },
 ];
 
 function Nav({ location }) {
