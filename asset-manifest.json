@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/SVGLearn/static/css/main.206ad839.chunk.css",
+    "main.js": "/SVGLearn/static/js/main.2d365d9d.chunk.js",
+    "main.js.map": "/SVGLearn/static/js/main.2d365d9d.chunk.js.map",
+    "runtime~main.js": "/SVGLearn/static/js/runtime~main.a668d4d4.js",
+    "runtime~main.js.map": "/SVGLearn/static/js/runtime~main.a668d4d4.js.map",
+    "static/css/2.bf2f8c65.chunk.css": "/SVGLearn/static/css/2.bf2f8c65.chunk.css",
+    "static/js/2.3797f01b.chunk.js": "/SVGLearn/static/js/2.3797f01b.chunk.js",
+    "static/js/2.3797f01b.chunk.js.map": "/SVGLearn/static/js/2.3797f01b.chunk.js.map",
+    "index.html": "/SVGLearn/index.html",
+    "precache-manifest.1c1f1ed1e4a964d2decca54dea070938.js": "/SVGLearn/precache-manifest.1c1f1ed1e4a964d2decca54dea070938.js",
+    "service-worker.js": "/SVGLearn/service-worker.js",
+    "static/css/2.bf2f8c65.chunk.css.map": "/SVGLearn/static/css/2.bf2f8c65.chunk.css.map",
+    "static/css/main.206ad839.chunk.css.map": "/SVGLearn/static/css/main.206ad839.chunk.css.map"
+  }
+}
