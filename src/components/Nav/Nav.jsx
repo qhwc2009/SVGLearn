@@ -34,6 +34,16 @@ const pages = [
     link: '/Pattern',
     title: 'Pattern',
   },
+  {
+    key: '7',
+    link: '/Path',
+    title: 'Path',
+  },
+  {
+    key: '8',
+    link: '/Text',
+    title: 'Text',
+  },
 ];
 
 function Nav({ location }) {

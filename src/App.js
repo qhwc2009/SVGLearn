@@ -10,6 +10,8 @@ import SVGEditor from 'view/SVGEditor/SVGEditor';
 import LinearGradient from 'view/LinearGradient/LinearGradient';
 import RadiaGradient from 'view/RadiaGradient/RadiaGradient';
 import Pattern from 'view/Pattern/Pattern';
+import Path from 'view/Path/Path';
+import Text from 'view/Text/Text';
 
 import './App.scss'
 
@@ -31,6 +33,8 @@ function App() {
               <Route path="/LinearGradient" exact component={LinearGradient} />
               <Route path="/RadiaGradient" exact component={RadiaGradient} />
               <Route path="/Pattern" exact component={Pattern} />
+              <Route path="/Path" exact component={Path} />
+              <Route path="/Text" exact component={Text} />
             </div>
           </Content>
         </Layout>
