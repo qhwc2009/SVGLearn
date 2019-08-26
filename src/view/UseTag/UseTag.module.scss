@@ -1,0 +1,6 @@
+@import '../style.scss';
+.UseTag {
+  @include fullView;
+  @include center;
+  background: rgb(2, 2, 41);
+}

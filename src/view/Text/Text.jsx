@@ -48,7 +48,9 @@ export default function Text() {
         </defs>
         <rect width="100%" height="100%" fill="url(#grid)" />
         <text x="100" y="100" dx={dx} dy={dy} style={{ fontSize: '50px' }}>
-          X晨哥牛逼--真的好牛逼
+          <tspan fill="red">X晨哥牛逼</tspan>
+          <tspan fill="black">--</tspan>
+          <tspan stroke="black" fill="transparent">真的好牛逼</tspan>
         </text>
         <path d="M 100 0 V 200 M 0 100 H 200" stroke="red" />
       </svg>

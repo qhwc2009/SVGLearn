@@ -12,6 +12,7 @@ import RadiaGradient from 'view/RadiaGradient/RadiaGradient';
 import Pattern from 'view/Pattern/Pattern';
 import Path from 'view/Path/Path';
 import Text from 'view/Text/Text';
+import UseTag from 'view/UseTag/UseTag';
 
 import './App.scss'
 
@@ -35,6 +36,7 @@ function App() {
               <Route path="/Pattern" exact component={Pattern} />
               <Route path="/Path" exact component={Path} />
               <Route path="/Text" exact component={Text} />
+              <Route path="/UseTag" exact component={UseTag} />
             </div>
           </Content>
         </Layout>

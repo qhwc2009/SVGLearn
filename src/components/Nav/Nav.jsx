@@ -44,6 +44,11 @@ const pages = [
     link: '/Text',
     title: 'Text',
   },
+  {
+    key: '9',
+    link: '/UseTag',
+    title: 'UseTag',
+  },
 ];
 
 function Nav({ location }) {
